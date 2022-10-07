@@ -1,0 +1,35 @@
+{
+  "name": "render-image",
+  "version": "1.0.0",
+  "description": "render the text onto the image",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=14.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IveHD/render-image.git"
+  },
+  "keywords": [
+    "render",
+    "image"
+  ],
+  "author": "handong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IveHD/render-image/issues"
+  },
+  "homepage": "https://github.com/IveHD/render-image#readme",
+  "dependencies": {
+    "canvas": "^2.10.1",
+    "express": "^4.18.1",
+    "gifsicle": "^5.3.0",
+    "gify-parse": "^1.0.7",
+    "imageinfo": "^1.0.4",
+    "images": "^3.2.4",
+    "md5": "^2.3.0"
+  }
+}
